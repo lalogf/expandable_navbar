@@ -13,9 +13,11 @@
 }
 
 .bigbox{
-
 	margin: 10px;
- 
+}
+
+.bigbox :hover{
+	background-color: rgba(231, 76, 60,1.0)
 }
 
 body{
@@ -25,11 +27,46 @@ body{
 h1{
 	color:white;
 	text-align: center;
-	height: 200px;
+	height: 160px;
 	font-size: 60px;
 	padding:40px;
 }
 
-.navbar-default{
-	background: url("http://www.sanfrancisco.travel/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg")
+.navbar-inverse{
+	background: url("http://i932.photobucket.com/albums/ad167/the-peruviano4/Lima/4260992084_56e6b5b94f_bwef.jpg")
 }
+
+.navbar-toggle{
+	border:none;
+	width:50px;
+}
+.navbar-toggle :hover {
+	border:0px;
+	background:none;
+}
+
+.navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
+    background:none;
+}
+
+.navbar-header .navbar-toggle .collapsed {
+    background-color:red;
+}
+
+.navbar-toggle .icon-bar{
+	margin: 5px;
+	width: 30px;
+	height: 4px;
+}
+
+/*.navbar-toggle :nth-child(2) {
+	transform: rotate(45deg) translate3d(4px, 6px, 0);
+}
+
+.navbar-toggle :nth-child(3) {
+	transform: rotate(135deg) translate3d(1px, 2px, 0);
+}
+
+.navbar-inverse .navbar-toggle :nth-child(4) {
+  background:none;
+}*/
