@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+}
+
+.bigbox{
+
+	margin: 10px;
+ 
+}
+
+body{
+	background-color: rgba(0,0,0,1.0) 
+}
+
+h1{
+	color:white;
+	text-align: center;
+	height: 200px;
+	font-size: 60px;
+	padding:40px;
+}
+
+.navbar-default{
+	background: url("http://www.sanfrancisco.travel/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg")
+}
