@@ -1,15 +1,15 @@
 @media (min-width: 768px) {
-    .navbar-header {
-        float: none;
-    }
+	.navbar-header {
+		float: none;
+	}
 
-    .navbar-toggle {
-        display: block;
-    }
+	.navbar-toggle {
+		display: block;
+	}
 
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
 }
 
 .bigbox{
@@ -33,7 +33,7 @@ h1{
 }
 
 .navbar-inverse{
-	background: url("http://i932.photobucket.com/albums/ad167/the-peruviano4/Lima/4260992084_56e6b5b94f_bwef.jpg")
+	background: url("http://i932.photobucket.com/albums/ad167/the-peruviano4/Lima/4260992084_56e6b5b94f_bwef.jpg");
 }
 
 .navbar-toggle{
@@ -46,11 +46,11 @@ h1{
 }
 
 .navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
-    background:none;
+	background:none;
 }
 
 .navbar-header .navbar-toggle .collapsed {
-    background-color:red;
+	background-color:red;
 }
 
 .navbar-toggle .icon-bar{
@@ -59,14 +59,20 @@ h1{
 	height: 4px;
 }
 
-/*.navbar-toggle :nth-child(2) {
+.xone {
 	transform: rotate(45deg) translate3d(4px, 6px, 0);
+	-webkit-transform: rotate(45deg) translate3d(4px, 6px, 0);
+	transition:transform 1s;
+	-webkit-transition:transform 1s;
 }
 
-.navbar-toggle :nth-child(3) {
-	transform: rotate(135deg) translate3d(1px, 2px, 0);
+.xtwo {
+	transform: rotate(-45deg) translate3d(0px, -3px, 0);
+	-webkit-transform: rotate(-45deg) translate3d(0px, -3px, 0);
+	transition:transform 1s;
+	-webkit-transition:transform 1s;
 }
 
-.navbar-inverse .navbar-toggle :nth-child(4) {
-  background:none;
-}*/
+/*.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: rgba(0,0,0,0.4);
+  }*/
