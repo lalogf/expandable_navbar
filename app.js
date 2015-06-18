@@ -32,18 +32,27 @@ var ready = function (){
 				}
 			};
 		});
-		// $(":nth-child(3)", this).addClass('xtwo');
-		
-		// $(".navbar-toggle:nth-child(3)").attr('class','xtwo');
-		// $(".navbar-toggle:nth-child(4)").attr('class','xnone');
 		$(arr).each(function(index){
 			$(this).attr("style","background-color:"+colors[index])
 		});
 	});
 	$(".navbar-toggle").focus(function(){
 	});
-
-
+	$(".bigbox").click(function(){
+		$(".navbar-toggle").addClass('collapsed');
+		$(".navbar-collapsed").removeClass("in");
+		$(".icon-bar").each(function(index){
+			if (index === 0) {
+				$(this).removeClass('xone');
+			} 
+			else if (index === 1) {
+				$(this).removeClass('xtwo');
+			}
+			else if (index === 2) {
+				$(this).attr("style", "background-color:white").removeClass('xnone')
+			} ;
+		});
+	});
 };
 
 $(document).ready(ready);
